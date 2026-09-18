@@ -357,3 +357,9 @@ export interface TripSchedule {
     arrivalTime: string;
     vehicleId?: number;
 }
+export interface UserLocationUpdate {
+    userId: number;
+    latitude: number;
+    longitude: number;
+    timestamp: Date;
+}
