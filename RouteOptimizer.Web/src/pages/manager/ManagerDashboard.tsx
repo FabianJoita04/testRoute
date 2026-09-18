@@ -41,6 +41,23 @@ interface ManagerDashboardProps {
     showNotification: (message: string, severity: NotificationState['severity']) => void;
 }
 
+const PMBRedirectButton: React.FC = () => {
+    const handleClick = () => {
+        window.location.href = 'https://www.pmb.ro';
+    };
+
+    return (
+        <Button
+            variant="contained"
+            color="primary"
+            onClick={handleClick}
+            sx={{ mt: 2 }}
+        >
+            Go to PMB
+        </Button>
+    );
+};
+
 const ManagerDashboard: React.FC<ManagerDashboardProps> = ({
                                                                showNotification
                                                            }) => {
@@ -536,6 +553,16 @@ const ManagerDashboard: React.FC<ManagerDashboardProps> = ({
                                     </TableBody>
                                 </Table>
                             </TableContainer>
+                        </Paper>
+                    </Grid>
+
+                    {/* PMB Redirect Button */}
+                    <Grid size={{ xs: 12 }}>
+                        <Paper sx={{ p: 3 }}>
+                            <Typography variant="h6" gutterBottom>
+                                External Links
+                            </Typography>
+                            <PMBRedirectButton />
                         </Paper>
                     </Grid>
                 </Grid>
