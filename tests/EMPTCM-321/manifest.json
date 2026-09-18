@@ -1,0 +1,10 @@
+{
+  "task_id": "9a0e4932-f99a-4525-b59b-b43c6fd8f8e1",
+  "ticket_key": "EMPTCM-321",
+  "module_name": "Adăugarea afișării locației utilizatorului în timp real pe hartă interactivă",
+  "criteria": [],
+  "model": "open-mistral-nemo",
+  "test_file": "test_utilizatorului.py",
+  "generated_by": "S5 test-generation agent",
+  "generated_at": "2026-09-18T11:38:16+00:00"
+}
