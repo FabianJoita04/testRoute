@@ -1,0 +1,10 @@
+{
+  "task_id": "eab1d1d0-7863-425e-b534-c8f29f358b01",
+  "ticket_key": "EMPTCM-319",
+  "module_name": "Implementare locație utilizator în timp real pe hartă interactivă în planificare călătorie",
+  "criteria": [],
+  "model": "open-mistral-nemo",
+  "test_file": "test_implementare.py",
+  "generated_by": "S5 test-generation agent",
+  "generated_at": "2026-09-18T11:15:47+00:00"
+}
